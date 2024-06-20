@@ -67,6 +67,63 @@ html {
     color: whitesmoke;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 430px) {
+    .page-header {
+        display: auto;
+        justify-content: initial;
+        align-items: initial;
+        width: 100%;
+        padding: 20px;
+        min-height: 60vh;
+        background-image: url("../images/header/Header\ Background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: whitesmoke;
+    }
+
+    .header-div {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .header-div h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        width: 90%;
+        letter-spacing: 0.05em;
+    }
+
+    .header-div p {
+        margin: 40px 0 35px 0;
+        line-height: 1.6;
+        font-size: 1.2rem;
+    }
+
+    .header-button-1 {
+        width: 100%;
+        margin: 0;
+        padding: 20px 40px;
+        border-radius: 32px;
+        font-size: 1.2rem;
+        color: #23272A;
+    }
+    
+    .header-button-2 {
+        width: 100%;
+        margin: 25px 0;
+        padding: 20px 40px;
+        border-radius: 32px;
+        font-size: 1.2rem;
+        background-color: #23272A;
+        color: whitesmoke;
+    }
+}
+
 /*  SECTION 1 */
 
 section {
@@ -107,6 +164,40 @@ section {
     font-size: 1.4rem;
 }
 
+@media screen and (max-width: 430px) {
+    .section1 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section1-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .section1-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section1-content {
+        width: 100%;
+    }
+
+    .section1-content h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    
+    .section1-content p {
+        font-size: 1.2rem;
+    }
+}
+
 /* SECTION 2 */
 
 .section2 {
@@ -141,6 +232,41 @@ section {
 
 .section2-content p {
     font-size: 1.4rem;
+}
+
+@media screen and (max-width: 430px) {
+    .section2 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section2-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .section2-div img {
+        width: 100%;
+        height: auto;
+        order: -1;
+    }
+
+    .section2-content {
+        width: 100%;
+    }
+
+    .section2-content h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    
+    .section2-content p {
+        font-size: 1.2rem;
+    }
 }
 
 /*  SECTION 3 */
@@ -178,6 +304,40 @@ section {
     font-size: 1.4rem;
 }
 
+@media screen and (max-width: 430px) {
+    .section3 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section3-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .section3-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section3-content {
+        width: 100%;
+    }
+
+    .section3-content h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    
+    .section3-content p {
+        font-size: 1.2rem;
+    }
+}
+
 /* SECTION 4 */
 
 .section4 {
@@ -213,6 +373,38 @@ section {
     height: 777px;
 }
 
+@media screen and (max-width: 430px) {
+    .section4 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section4-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .section4-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section4-div h2 {
+        width: 100%;
+        font-size: 2rem;
+        text-align: left;
+        letter-spacing: 0.05em;
+    }
+
+    .section4-div p {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}
+
 footer {
     box-sizing: content-box;
     width: 100%;
@@ -225,4 +417,17 @@ footer {
 footer img {
     width: 280px;
     height: 76px;
+}
+
+@media screen and (max-width: 430px) {
+    footer {
+        box-sizing: border-box;
+        padding: 40px 0;
+    }
+
+    footer img {
+        width: 190px;
+        height: 52px;
+    }
+
 }
