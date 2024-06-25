@@ -105,10 +105,44 @@ button:hover {
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
+    .page-header {
+        padding: 20px;
+    }
 
+    .header-div {
+        max-width: 600px;
+    }
+
+    .header-div h1 {
+        font-size: 2.5rem;
+        width: 300px;
+    }
+
+    .header-div p {
+        margin: 40px 0 35px 0;
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    .header-button-1 {
+        margin: 24px 24px 0 24px;
+        padding: 20px 40px;
+        border-radius: 32px;
+        font-size: 16px;
+        color: #23272A;
+    }
+    
+    .header-button-2 {
+        margin: 24px 24px 0 24px;
+        padding: 20px 40px;
+        border-radius: 32px;
+        font-size: 16px;
+        background-color: #23272A;
+        color: whitesmoke;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 575px) {
     .page-header {
         display: auto;
         justify-content: initial;
@@ -237,10 +271,42 @@ section {
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
+    .section1 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section1-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
 
+    .section1-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section1-content {
+        width: 100%;
+    }
+
+    .section1-content h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .section1-content p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 575px) {
     .section1 {
         box-sizing: border-box;
         padding: 20px;
@@ -346,10 +412,43 @@ section {
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
+    .section2 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section2-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
 
+    .section2-div img {
+        width: 100%;
+        height: auto;
+        order: -1;
+    }
+
+    .section2-content {
+        width: 100%;
+    }
+
+    .section2-content h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .section2-content p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 575px) {
     .section2 {
         box-sizing: border-box;
         padding: 20px;
@@ -455,7 +554,39 @@ section {
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
+    .section3 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section3-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
 
+    .section3-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section3-content {
+        width: 100%;
+    }
+
+    .section3-content h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .section3-content p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -560,10 +691,39 @@ section {
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
+    .section4 {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .section4-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
 
+    .section4-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section4-div h2 {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+
+    .section4-div p {
+        font-size: 1.2rem;
+        text-align: left;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 575px) {
     .section4 {
         box-sizing: border-box;
         padding: 20px;
@@ -623,7 +783,19 @@ footer img {
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    footer {
+        box-sizing: border-box;
+        padding: 40px 0;
+    }
+
+    footer img {
+        width: 190px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
     footer {
         box-sizing: border-box;
         padding: 40px 0;
