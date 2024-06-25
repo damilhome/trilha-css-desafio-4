@@ -32,7 +32,7 @@ html {
 }
 
 .header-div {
-    max-width: 1260px;
+    max-width: 1060px;
     text-align: center;
 }
 
@@ -171,19 +171,19 @@ section {
 .section1 {
     box-sizing: content-box;
     width: 100%;
-    padding: 60px 25px 60px 0;
+    padding: 50px 25px 50px 0;
 }
 
 .section1-div {
     margin: 0 auto;
-    width: 1360px;
+    width: 1140px;
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 25px;
 }
 
 .section1-div img {
-    width: 807px;
+    width: 720px;
     height: auto;
 }
 
@@ -195,6 +195,7 @@ section {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 30px;
+    line-height: 1.2;
 }
 
 .section1-content p {
@@ -278,20 +279,20 @@ section {
 .section2 {
     box-sizing: content-box;
     width: 100%;
-    padding: 60px 25px 60px 0;
+    padding: 50px 25px 50px 0;
     background-color: #F6F6F6;
 }
 
 .section2-div {
     margin: 0 auto;
-    width: 1360px;
+    width: 1140px;
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 25px;
 }
 
 .section2-div img {
-    width: 807px;
+    width: 720px;
     height: auto;
 }
 
@@ -303,6 +304,7 @@ section {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 30px;
+    line-height: 1.2;
 }
 
 .section2-content p {
@@ -387,19 +389,19 @@ section {
 .section3 {
     box-sizing: content-box;
     width: 100%;
-    padding: 60px 25px 60px 0;
+    padding: 50px 25px 50px 0;
 }
 
 .section3-div {
     margin: 0 auto;
-    width: 1360px;
+    width: 1140px;
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 25px;
 }
 
 .section3-div img {
-    width: 807px;
+    width: 720px;
     height: auto;
 }
 
@@ -411,6 +413,7 @@ section {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 30px;
+    line-height: 1.2;
 }
 
 .section3-content p {
@@ -494,13 +497,13 @@ section {
 .section4 {
     box-sizing: content-box;
     width: 100%;
-    padding: 60px 25px 60px 0;
+    padding: 50px 25px 50px 0;
     background-color: #F6F6F6;
 }
 
 .section4-div {
     margin: 0 auto;
-    width: 1360px;
+    width: 1140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -512,6 +515,7 @@ section {
     font-family: "Luckiest Guy", cursive;
     font-size: 3rem;
     text-align: center;
+    line-height: 1.2;
 }
 
 .section4-div p {
@@ -591,6 +595,8 @@ section {
     }
 }
 
+/* FOOTER */
+
 footer {
     box-sizing: content-box;
     width: 100%;
@@ -601,8 +607,8 @@ footer {
 }
 
 footer img {
-    width: 280px;
-    height: 76px;
+    width: 240px;
+    height: auto;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -613,7 +619,7 @@ footer img {
 
     footer img {
         width: 190px;
-        height: 52px;
+        height: auto;
     }
 }
 
@@ -625,6 +631,6 @@ footer img {
 
     footer img {
         width: 190px;
-        height: 52px;
+        height: auto;
     }
 }
